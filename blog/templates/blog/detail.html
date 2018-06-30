@@ -28,7 +28,7 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-auto">
             <a class="nav-item nav-link" href="https://github.com/Duskhorizon">Github</a>
-            <a class="nav-item nav-link" href="{% static 'cv.pdf' %}">Resume</a>
+            <a class="nav-item nav-link" href="{% static 'sample.pdf' %}">Resume</a>
             <a class="nav-item nav-link active" href="{% url 'allblogs' %}">Blog</a>
           </div>
         </div>
@@ -47,7 +47,7 @@
 <img src="{{ detailblog.image.url }}"/>
 <br />
 <br />
-<p>{{ detailblog.body }}...</p>
+<p>{{ detailblog.body }}</p>
 
 
         </div>
